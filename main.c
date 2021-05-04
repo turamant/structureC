@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <utils.h>
+
 
 typedef struct {
     char *nm;
@@ -8,10 +8,7 @@ typedef struct {
 }student;
 
 unsigned char student_counter = 0;
-typedef unsigned int my_int32;
-float res;
-char str1[30] = {};
-float yf,zf;
+
 student addStudent(char *ch, unsigned int cr, unsigned int ag);
 
 int main() {
